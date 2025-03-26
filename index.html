@@ -3,34 +3,96 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.ico">
   
   <title>Frontend Mentor | Product preview card component</title>
+<!--
+### Primary
 
+- Green 500: hsl(158, 36%, 37%)
+- Green 700: hsl(158, 42%, 18%)
+
+### Neutral
+
+- Black: hsl(212, 21%, 14%)
+- Grey: hsl(228, 12%, 48%)
+- Cream: hsl(30, 38%, 92%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 14px
+
+### Font
+
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700
+-->
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    #whiteframe{
+      width:1440px;
+      height:1000px;
+      border-radius: 25px;
+      color:white;
+    }
+    #perfume{
+      font-family:'montserrat';
+      font-size:14px;
+      color:hsl(228, 12%, 48%);
+    }
+    #name{
+      color:hsl(212, 21%, 14%);
+      font-size:normal;
+      font-family:'fraunces';
+    }
+    #info{
+      font-size:14px;
+      color:hsl(228, 12%, 48%);
+      font-family:'montserrat';
+    }
+
+    #price{
+      color: hsl(158, 36%, 37%);
+      font-size:large;
+      font-family:'fraunces';
+    }
+    #og{
+      color:hsl(228, 12%, 48%);
+      font-family:'fraunces';
+      font-size:smaller;
+    }
+      
   </style>
 </head>
 <body>
-
-  Perfume
-
-  Gabrielle Essence Eau De Parfum
+<main>
+  
+  <p id='perfume'>PERFUME</p>
+<h1 id='name'>Gabrielle Essence Eau De Parfum</h1>
+  <p id="info">
 
   A floral, solar and voluptuous interpretation composed by Olivier Polge, 
   Perfumer-Creator for the House of CHANEL.
-
-  $149.99
-  $169.99
-
-  Add to Cart
+  </p>
+<div>
+ <h2 id="price">$149.99</h2>
+  <h3 id="og">-$169.99-</h3>
+</div>
+  
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/sorestar">Sorestar</a>.
   </div>
+</main>
 </body>
 </html>
