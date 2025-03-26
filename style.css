@@ -1,10 +1,10 @@
 @font-face{
-  src='/fonts/fraunces.ttf';
+  src='fonts/fraunces.ttf';
   format('truetype');
-  font-family:'fraunces';
+  font-family:fraunces;
 }
 @font-face{
-  src='/fonts/montserrat.ttf';
+  src='fonts/montserrat.ttf';
   format('truetype');
-  font-family:'montserrat';
+  font-family:montserrat;
 }
